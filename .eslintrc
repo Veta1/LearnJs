@@ -17,6 +17,14 @@
         "no-unused-vars": "off", 
         "no-plusplus": "off", 
         "no-alert": "off",
-        "no-undef": "off"
+        "no-undef": "off",
+        "linebreak-style": "off",
+        "consistent-return": "off",
+        "no-underscore-dangle": "off",
+        "default-case": "off",
+        "no-restricted-globals": "off",
+        "eol-last": "off",
+        "no-nested-ternary": "off",
+        "func-names": "off"
     }
 }

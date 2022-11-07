@@ -26,5 +26,4 @@ function whatday(num) {
     return 'Saturday';
   }
   return 'Wrong, please enter a number between 1 and 7';
-
 }

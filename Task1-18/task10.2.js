@@ -5,7 +5,7 @@
 
 const title = prompt('Какое офицальное название JavaScript');
 
-if (title == 'ECMAScript') {
+if (title === 'ECMAScript') {
   alert('Верно');
 } else {
   alert('Не знаете? ECMAScript!');
