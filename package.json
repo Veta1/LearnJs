@@ -1,0 +1,26 @@
+{
+  "name": "learnjs",
+  "version": "1.0.0",
+  "description": "learnjs.project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "lint:fix": "eslint **/*.js --ignore-pattern node_modules/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veta1/LearnJs.git"
+  },
+  "author": "lizasalahutdinova1@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Veta1/LearnJs/issues"
+  },
+  "homepage": "https://github.com/Veta1/LearnJs#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

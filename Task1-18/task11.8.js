@@ -12,23 +12,20 @@
 
 // Подсказка: передача пустого ввода в приглашение prompt возвращает пустую строку ''. Нажатие клавиши Esc во время запроса возвращает null.
 
-
-let userName = prompt("Кто там?", '');
+const userName = prompt('Кто там?', '');
 
 if (userName === 'Админ') {
-
-  let pass = prompt('Пароль?', '');
+  const pass = prompt('Пароль?', '');
 
   if (pass === 'Я главный') {
-    alert( 'Здравствуйте!' );
+    alert('Здравствуйте!');
   } else if (pass === '' || pass === null) {
-    alert( 'Отменено' );
+    alert('Отменено');
   } else {
-    alert( 'Неверный пароль' );
+    alert('Неверный пароль');
   }
-
 } else if (userName === '' || userName === null) {
-  alert( 'Отменено' );
+  alert('Отменено');
 } else {
-  alert( "Я вас не знаю" );
+  alert('Я вас не знаю');
 }

@@ -3,9 +3,8 @@
 // When bool is truth-ish, func1 should be called, otherwise call the func2.
 
 function _if(bool, func1, func2) {
-    if (bool == true){
-      return func1()
-    } else {
-      return func2()
-    }
+  if (bool == true) {
+    return func1();
   }
+  return func2();
+}
