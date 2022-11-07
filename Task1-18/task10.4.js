@@ -8,6 +8,5 @@
 //   result = 'Много';
 // }
 
-
-result = (a + b < 4) ?
-alert("Мало") : alert("Много");
+result = (a + b < 4)
+  ? alert('Мало') : alert('Много');
